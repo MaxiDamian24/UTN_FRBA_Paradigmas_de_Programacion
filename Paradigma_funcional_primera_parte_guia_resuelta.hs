@@ -14,13 +14,13 @@ area base altura = base * altura
 esBisiesto anio = esMultiploDe anio 4 && not (esMultiploDe anio 100) 
 
 --6.Definir la función celsiusToFahr/1, pasa una temperatura en grados Celsius a grados Fahrenheit.
-celsiusToFahr temp = temp * 1.8 + 32
+celsiusToFahr temperatura = temperatura * 1.8 + 32
 
 --7.Definir la función fahrToCelsius/1, la inversa de la anterior.
-fahrToCelsius temp = (temp - 32) / 1.8
+fahrToCelsius temperatura = (temperatura - 32) / 1.8
 
 --8.Definir la función haceFrioF/1, indica si una temperatura expresada en grados Fahrenheit es fría. Decimos que hace frío si la temperatura es menor a 8 grados Celsius. 
-haceFrioF temp = 8 > celsiusToFahr temp
+haceFrioF temperatura = 8 > celsiusToFahr temperatura
 
 --9.Definir la función mcm/2 que devuelva el mínimo común múltiplo entre dos números, de acuerdo a esta fórmula. 
 mcm primerNumero segundoNumero = gcd primerNumero segundoNumero

@@ -1,5 +1,4 @@
 import Text.Show.Functions
-
 type Atraccion = String
 
 data Ciudad = Ciudad {
